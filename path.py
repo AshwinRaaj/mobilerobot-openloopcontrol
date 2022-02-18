@@ -1,31 +1,3 @@
-# MobileRobot-Openloopcontrol
-## Aim:
-
-To develop a python control code to move the mobilerobot along the predefined path.
-
-## Equipments Required:
-1. RoboMaster EP core
-2. Python 3.7
-
-## Procedure
-
-### Step1:
-Initiate the MobileRobot.
-
-### Step2:
-Connect your PC with the MobileRobot.
-
-### Step3:
-Open Python program.
-
-### Step4:
-Program the movements of the robot using python code.
-
-### Step5:
-Execute the python program.
-
-## Program
-```python
 from robomaster import robot
 import time
 from robomaster import camera
@@ -76,31 +48,3 @@ if _name_ == '_main_':
     
 
     ep_robot.close()
-```
-
-## MobileRobot Movement Image:
-
-![robo](./img/robomaster.png)
-
-## MobileRobot Movement Video:
-
-[![IMAGE ALT TEXT HERE]https://youtu.be/3lPtT3acyzQ](https://youtu.be/3lPtT3acyzQ)
-
-## Output:
-### Starting Point:
-![start](z2.jpeg)
-
-### Ending Point:
-![start](z1.jpeg)
-
-### Live Stream:
-![start](z3.png)
-
-## Result:
-Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-```
-Mobile Robotics Laboratory
-Department of Artificial Intelligence and Data Science/ Machine Learning
-Saveetha Engineering College
-```
